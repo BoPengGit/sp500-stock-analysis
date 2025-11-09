@@ -119,9 +119,8 @@ function PortfolioReturns({ selectedWeights, onWeightChange, weightConfigs }) {
             ))}
           </div>
         </div>
-      </div>
 
-      <div className="returns-summary">
+            <div className="returns-summary">
         <div className="summary-table">
           <table>
             <thead>
@@ -263,13 +262,10 @@ function PortfolioReturns({ selectedWeights, onWeightChange, weightConfigs }) {
             </table>
           </div>
         </div>
-      )}
 
-      {!isCollapsed && (
-        <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
-          Recalculate Returns
-        </button>
-      )}
+            <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
+              Recalculate Returns
+            </button>
           </>
         )}
       </div>

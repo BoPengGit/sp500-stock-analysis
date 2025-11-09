@@ -118,9 +118,8 @@ function PortfolioReturns15({ selectedWeights, onWeightChange, weightConfigs }) 
             ))}
           </div>
         </div>
-      </div>
 
-      <div className="returns-summary">
+            <div className="returns-summary">
         <div className="summary-table">
           <table>
             <thead>
