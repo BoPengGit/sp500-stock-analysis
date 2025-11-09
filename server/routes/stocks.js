@@ -709,11 +709,12 @@ router.get('/historical-stock-returns', async (req, res) => {
     console.log(`\nFetching returns for ${symbolArray.length} stocks from ${years} years ago`);
 
     // Calculate dates
+    // For yearsAgo=1: startDate = 1 year ago, endDate = today
+    // For yearsAgo=5: startDate = 5 years ago, endDate = today
     const startDate = new Date();
     startDate.setFullYear(startDate.getFullYear() - years);
 
-    const endDate = new Date();
-    endDate.setFullYear(endDate.getFullYear() - (years - 1));
+    const endDate = new Date(); // End date is always TODAY for historical returns
 
     console.log(`Period: ${startDate.toISOString().split('T')[0]} to ${endDate.toISOString().split('T')[0]}`);
 
