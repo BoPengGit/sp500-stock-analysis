@@ -5,6 +5,7 @@ function PortfolioReturns({ selectedWeights, onWeightChange, weightConfigs }) {
   const [returns, setReturns] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [isCollapsed, setIsCollapsed] = useState(true);
 
   const fetchPortfolioReturns = async (weightsKey = selectedWeights) => {
     setLoading(true);
@@ -91,16 +92,20 @@ function PortfolioReturns({ selectedWeights, onWeightChange, weightConfigs }) {
   return (
     <div className="portfolio-returns">
       <div className="returns-header">
-        <h2>Equal-Weighted Portfolio Returns (Top 10 Stocks)</h2>
-        <p className="returns-subtitle">
-          Top 10 stocks with 10% allocation each, rebalanced quarterly
-        </p>
-        {returns.metadata?.rebalancingStrategy === 'quarterly' && (
-          <p className="rebalancing-note">
-            Returns calculated with quarterly rebalancing (every 3 months)
-          </p>
-        )}
-        <div className="weight-selector">
+        <h2 onClick={() => setIsCollapsed(!isCollapsed)} style={{cursor: 'pointer'}}>
+          {isCollapsed ? '▶' : '▼'} Equal-Weighted Portfolio Returns (Top 10 Stocks)
+        </h2>
+        {!isCollapsed && (
+          <>
+            <p className="returns-subtitle">
+              Top 10 stocks with 10% allocation each, rebalanced quarterly
+            </p>
+            {returns.metadata?.rebalancingStrategy === 'quarterly' && (
+              <p className="rebalancing-note">
+                Returns calculated with quarterly rebalancing (every 3 months)
+              </p>
+            )}
+            <div className="weight-selector">
           <label>Select Weight Configuration (MC-ADTV-P/S-Growth-GF):</label>
           <div className="weight-buttons">
             {Object.keys(weightConfigs).map(key => (
@@ -260,9 +265,14 @@ function PortfolioReturns({ selectedWeights, onWeightChange, weightConfigs }) {
         </div>
       )}
 
-      <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
-        Recalculate Returns
-      </button>
+      {!isCollapsed && (
+        <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
+          Recalculate Returns
+        </button>
+      )}
+          </>
+        )}
+      </div>
     </div>
   );
 }

@@ -5,6 +5,7 @@ function PortfolioReturns20({ selectedWeights, onWeightChange, weightConfigs }) 
   const [returns, setReturns] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [isCollapsed, setIsCollapsed] = useState(true);
 
   const fetchPortfolioReturns = async (weightsKey = selectedWeights) => {
     setLoading(true);
@@ -66,7 +67,9 @@ function PortfolioReturns20({ selectedWeights, onWeightChange, weightConfigs }) 
   if (loading) {
     return (
       <div className="portfolio-returns">
-        <h2>Equal-Weighted Portfolio Returns (Top 20 Stocks)</h2>
+        <h2 onClick={() => setIsCollapsed(!isCollapsed)} style={{cursor: 'pointer'}}>
+          {isCollapsed ? '▶' : '▼'} Equal-Weighted Portfolio Returns (Top 20 Stocks)
+        </h2>
         <div className="loading-message">Calculating returns...</div>
       </div>
     );
@@ -75,7 +78,9 @@ function PortfolioReturns20({ selectedWeights, onWeightChange, weightConfigs }) 
   if (error) {
     return (
       <div className="portfolio-returns">
-        <h2>Equal-Weighted Portfolio Returns (Top 20 Stocks)</h2>
+        <h2 onClick={() => setIsCollapsed(!isCollapsed)} style={{cursor: 'pointer'}}>
+          {isCollapsed ? '▶' : '▼'} Equal-Weighted Portfolio Returns (Top 20 Stocks)
+        </h2>
         <div className="error-message">{error}</div>
         <button onClick={fetchPortfolioReturns} className="btn btn-primary">
           Retry
@@ -91,8 +96,12 @@ function PortfolioReturns20({ selectedWeights, onWeightChange, weightConfigs }) 
   return (
     <div className="portfolio-returns">
       <div className="returns-header">
-        <h2>Equal-Weighted Portfolio Returns (Top 20 Stocks)</h2>
-        <p className="returns-subtitle">
+        <h2 onClick={() => setIsCollapsed(!isCollapsed)} style={{cursor: 'pointer'}}>
+          {isCollapsed ? '▶' : '▼'} Equal-Weighted Portfolio Returns (Top 20 Stocks)
+        </h2>
+        {!isCollapsed && (
+          <>
+            <p className="returns-subtitle">
           Top 20 stocks with 5% allocation each
         </p>
         <div className="weight-selector">
@@ -255,9 +264,14 @@ function PortfolioReturns20({ selectedWeights, onWeightChange, weightConfigs }) 
         </div>
       )}
 
-      <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
+      {!isCollapsed && (
+        <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
         Recalculate Returns
       </button>
+      )}
+          </>
+        )}
+      </div>
     </div>
   );
 }
