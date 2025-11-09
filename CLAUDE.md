@@ -127,48 +127,62 @@ When extending to Years 7-10:
 1. Modify loop in `calculate-peg-and-growth-historical.js` line 323: `for (let yearsAgo = 1; yearsAgo <= 10; yearsAgo++)`
 2. Ensure FMP API has data for those years (may not exist for newer companies)
 
-## Common Scripts
+## Scripts Organization
 
-### Data Population Scripts
+All scripts are now organized in the `/scripts` directory:
+
+### Data Fetching Scripts (`scripts/data-fetching/`)
 
 ```bash
-# Calculate PEG and growth metrics for Years 1-6
-node calculate-peg-and-growth-historical.js
+# Fetch all historical stock price data
+node scripts/data-fetching/fetch-all-historical-data.js
 
-# Fill missing data gaps (ADTV, fundamentals)
-node populate-all-missing-data.js
+# Fetch historical GuruFocus scores (optimized with rate limiting)
+node scripts/data-fetching/fetch-all-historical-gf-scores-optimized.js
 
-# Recalculate specific years
-node recalc-years-4-5-6.js
+# Fetch GARP metrics (current year)
+node scripts/data-fetching/fetch-garp-metrics.js
 
-# Merge multiple database files
-node merge-all-databases.js
+# Fetch historical fundamentals for specific year
+node scripts/data-fetching/fetch-historical-data.js
+
+# Fetch historical GARP metrics
+node scripts/data-fetching/fetch-historical-garp-metrics.js
+
+# Fetch historical growth metrics (FCF, EPS, Revenue CAGR)
+node scripts/data-fetching/fetch-historical-growth-metrics.js
+
+# Fill missing growth metrics
+node scripts/data-fetching/fetch-missing-growth-metrics.js
+
+# Scrape missing GuruFocus scores incrementally
+node scripts/data-fetching/scrape-missing-gf-scores.js
 ```
 
-### Optimization Scripts
+### Optimization Scripts (`scripts/optimization/`)
 
 ```bash
-# Find optimal metric weights using genetic algorithm
-node optimize-comprehensive-genetic.js
+# Latest genetic algorithm for comprehensive optimization
+node scripts/optimization/optimize-comprehensive-genetic-FIXED.js
 
-# Local search optimization from best config
-node optimize-local-search-from-best.js
+# Optimize GARP-specific metric weights
+node scripts/optimization/optimize-garp-weights.js
 
-# Test multiple portfolio strategies
-node optimize-multi-portfolio.js
+# Local search optimization from best configuration
+node scripts/optimization/optimize-local-search-from-best.js
+
+# General weight optimization
+node scripts/optimization/optimize-weights.js
 ```
 
-### Validation Scripts
+### Utility Scripts (`scripts/utilities/`)
 
 ```bash
-# Validate data completeness
-node validate-data.js
+# Backup database to file
+node scripts/utilities/backup-database.js
 
-# Validate calculation accuracy
-node validate-calculations.js
-
-# Debug specific stock calculations
-node debug-unh-ranking.js
+# Run comprehensive testing suite
+node scripts/utilities/comprehensive-test.js
 ```
 
 ## Frontend Components

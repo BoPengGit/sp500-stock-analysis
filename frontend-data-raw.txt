@@ -1,0 +1,3 @@
+# I'll manually extract the key data from your HTML
+# Format: SYMBOL MARKETCAP ADTV PRICE_TO_SALES SALES_GROWTH
+# (I'll parse just the numerical values from the HTML structure you provided)
