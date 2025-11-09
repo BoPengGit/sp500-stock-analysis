@@ -11,7 +11,6 @@ import PortfolioReturns20 from './components/PortfolioReturns20';
 import AnnualRebalanceReturns from './components/AnnualRebalanceReturns';
 import HoldWinnersReturns from './components/HoldWinnersReturns';
 import HistoricalTopStocks from './components/HistoricalTopStocks';
-import GARPStrategy from './components/GARPStrategy';
 
 function App() {
   const [stocks, setStocks] = useState([]);
@@ -203,12 +202,6 @@ function App() {
 
         {!loading && filteredStocks.length > 0 && (
           <>
-            <GARPStrategy
-              selectedWeights={selectedWeights}
-              onWeightChange={handleWeightChange}
-              weightConfigs={weightConfigs}
-            />
-
             <AnnualRebalanceReturns
               selectedWeights={selectedWeights}
               onWeightChange={handleWeightChange}
