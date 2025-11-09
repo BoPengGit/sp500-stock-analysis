@@ -1,0 +1,1652 @@
+[
+  {
+    "name": "Sales Growth Max",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 15,
+      "salesGrowth": 40,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 53.77199918343039,
+      "threeYear": 64.39974767976658,
+      "fiveYear": 35.1432985423523,
+      "average": 51.10501513518309
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MU",
+      "LRCX",
+      "MSFT",
+      "LLY",
+      "GOOG",
+      "AVGO",
+      "APH"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Growth Heavy 40%",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 15,
+      "salesGrowth": 40,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 53.77199918343039,
+      "threeYear": 64.39974767976658,
+      "fiveYear": 35.1432985423523,
+      "average": 51.10501513518309
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MU",
+      "LRCX",
+      "MSFT",
+      "LLY",
+      "GOOG",
+      "AVGO",
+      "APH"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "MC+Growth Heavy",
+    "weights": {
+      "marketCap": 40,
+      "adtv": 10,
+      "priceToSales": 10,
+      "salesGrowth": 40,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 48.33399945984673,
+      "threeYear": 62.549304838866405,
+      "fiveYear": 34.06612008416638,
+      "average": 48.31647479429318
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "LLY",
+      "AVGO",
+      "MU",
+      "MSFT",
+      "AMZN",
+      "GOOG",
+      "JPM",
+      "LRCX"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Growth Heavy 35%",
+    "weights": {
+      "marketCap": 17,
+      "adtv": 17,
+      "priceToSales": 16,
+      "salesGrowth": 35,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 48.33399945984673,
+      "threeYear": 62.549304838866405,
+      "fiveYear": 34.06612008416638,
+      "average": 48.31647479429318
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MU",
+      "LRCX",
+      "MSFT",
+      "GOOG",
+      "LLY",
+      "AVGO",
+      "JPM"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "ADTV+Growth Heavy",
+    "weights": {
+      "marketCap": 10,
+      "adtv": 40,
+      "priceToSales": 10,
+      "salesGrowth": 40,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 47.780234435262,
+      "threeYear": 68.3462608039066,
+      "fiveYear": 28.195626448159235,
+      "average": 48.10737389577594
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "MU",
+      "AVGO",
+      "AMZN",
+      "GOOG",
+      "LRCX",
+      "MSFT",
+      "COIN",
+      "UBER"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 9
+    }
+  },
+  {
+    "name": "MC Heavy 30%",
+    "weights": {
+      "marketCap": 30,
+      "adtv": 20,
+      "priceToSales": 15,
+      "salesGrowth": 20,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 49.19886558497879,
+      "threeYear": 60.400904164645404,
+      "fiveYear": 31.10271923066869,
+      "average": 46.90082966009763
+    },
+    "topStocks": [
+      "NVDA",
+      "AMZN",
+      "META",
+      "GOOG",
+      "MSFT",
+      "MU",
+      "BAC",
+      "LRCX",
+      "JPM",
+      "AVGO"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Growth Heavy 30%",
+    "weights": {
+      "marketCap": 20,
+      "adtv": 20,
+      "priceToSales": 15,
+      "salesGrowth": 30,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 48.428127671030076,
+      "threeYear": 61.66417958147332,
+      "fiveYear": 29.937608799558014,
+      "average": 46.67663868402047
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MSFT",
+      "GOOG",
+      "MU",
+      "LRCX",
+      "AVGO",
+      "BAC",
+      "UBER"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Growth+Size Focus",
+    "weights": {
+      "marketCap": 25,
+      "adtv": 25,
+      "priceToSales": 10,
+      "salesGrowth": 30,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 48.42812767103007,
+      "threeYear": 61.66417958147332,
+      "fiveYear": 29.937608799558014,
+      "average": 46.67663868402047
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MU",
+      "GOOG",
+      "MSFT",
+      "AVGO",
+      "LRCX",
+      "BAC",
+      "UBER"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Size+Growth Focus",
+    "weights": {
+      "marketCap": 30,
+      "adtv": 30,
+      "priceToSales": 10,
+      "salesGrowth": 30,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 48.42812767103007,
+      "threeYear": 61.66417958147332,
+      "fiveYear": 29.937608799558014,
+      "average": 46.67663868402047
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MU",
+      "GOOG",
+      "MSFT",
+      "AVGO",
+      "LRCX",
+      "BAC",
+      "UBER"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Size+GF Focus",
+    "weights": {
+      "marketCap": 30,
+      "adtv": 30,
+      "priceToSales": 10,
+      "salesGrowth": 10,
+      "gfScore": 20
+    },
+    "returns": {
+      "oneYear": 45.5605838036651,
+      "threeYear": 59.458361558866216,
+      "fiveYear": 30.08601271576705,
+      "average": 45.03498602609945
+    },
+    "topStocks": [
+      "NVDA",
+      "AMZN",
+      "META",
+      "GOOG",
+      "MSFT",
+      "AAPL",
+      "LRCX",
+      "AMD",
+      "MU",
+      "ANET"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Growth+GF Heavy",
+    "weights": {
+      "marketCap": 10,
+      "adtv": 10,
+      "priceToSales": 10,
+      "salesGrowth": 40,
+      "gfScore": 40
+    },
+    "returns": {
+      "oneYear": 40.61508840350243,
+      "threeYear": 60.81137933804783,
+      "fiveYear": 32.72484472601911,
+      "average": 44.717104155856454
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "LLY",
+      "MSFT",
+      "LRCX",
+      "ANET",
+      "AMZN",
+      "GOOG",
+      "APH",
+      "NFLX"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "GF+Growth Focus",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 10,
+      "salesGrowth": 30,
+      "gfScore": 30
+    },
+    "returns": {
+      "oneYear": 40.61508840350243,
+      "threeYear": 60.811379338047836,
+      "fiveYear": 32.72484472601911,
+      "average": 44.717104155856454
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "MSFT",
+      "AMZN",
+      "LRCX",
+      "GOOG",
+      "LLY",
+      "ANET",
+      "APH",
+      "NFLX"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "MC+ADTV Heavy",
+    "weights": {
+      "marketCap": 40,
+      "adtv": 40,
+      "priceToSales": 10,
+      "salesGrowth": 10,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 42.72084235455389,
+      "threeYear": 59.12712996399584,
+      "fiveYear": 29.53375061028892,
+      "average": 43.793907642946216
+    },
+    "topStocks": [
+      "NVDA",
+      "AMZN",
+      "META",
+      "GOOG",
+      "MSFT",
+      "AAPL",
+      "BAC",
+      "MU",
+      "AMD",
+      "AVGO"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Size Balanced 35-35",
+    "weights": {
+      "marketCap": 35,
+      "adtv": 35,
+      "priceToSales": 10,
+      "salesGrowth": 10,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 42.72084235455388,
+      "threeYear": 59.12712996399584,
+      "fiveYear": 29.53375061028892,
+      "average": 43.793907642946216
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "BAC",
+      "AAPL",
+      "MU",
+      "AVGO",
+      "AMD"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "MC+ADTV Focus",
+    "weights": {
+      "marketCap": 35,
+      "adtv": 35,
+      "priceToSales": 10,
+      "salesGrowth": 10,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 42.72084235455388,
+      "threeYear": 59.12712996399584,
+      "fiveYear": 29.53375061028892,
+      "average": 43.793907642946216
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "BAC",
+      "AAPL",
+      "MU",
+      "AVGO",
+      "AMD"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "MC Heavy 35%",
+    "weights": {
+      "marketCap": 35,
+      "adtv": 17,
+      "priceToSales": 16,
+      "salesGrowth": 17,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 39.88923291794514,
+      "threeYear": 53.22862219907046,
+      "fiveYear": 27.24717998844579,
+      "average": 40.12167836848713
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "BAC",
+      "JPM",
+      "MU",
+      "COST",
+      "LRCX"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "ADTV Heavy 30%",
+    "weights": {
+      "marketCap": 20,
+      "adtv": 30,
+      "priceToSales": 15,
+      "salesGrowth": 20,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 39.51446710538997,
+      "threeYear": 53.758524913555796,
+      "fiveYear": 24.499866858087792,
+      "average": 39.25761962567785
+    },
+    "topStocks": [
+      "NVDA",
+      "AMZN",
+      "META",
+      "GOOG",
+      "MSFT",
+      "MU",
+      "BAC",
+      "LRCX",
+      "UBER",
+      "QCOM"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Market Cap Max",
+    "weights": {
+      "marketCap": 40,
+      "adtv": 15,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 31.166855820570678,
+      "threeYear": 50.250270102485366,
+      "fiveYear": 25.901935729278335,
+      "average": 35.77302055077813
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "COST",
+      "BAC",
+      "JPM",
+      "AAPL",
+      "MU"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "MC Heavy 40%",
+    "weights": {
+      "marketCap": 40,
+      "adtv": 15,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 31.166855820570678,
+      "threeYear": 50.250270102485366,
+      "fiveYear": 25.901935729278335,
+      "average": 35.77302055077813
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "COST",
+      "BAC",
+      "JPM",
+      "AAPL",
+      "MU"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "GF Heavy 30%",
+    "weights": {
+      "marketCap": 20,
+      "adtv": 20,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 30
+    },
+    "returns": {
+      "oneYear": 27.603390222991063,
+      "threeYear": 50.971881638798436,
+      "fiveYear": 27.19993155326193,
+      "average": 35.25840113835048
+    },
+    "topStocks": [
+      "NVDA",
+      "AMZN",
+      "META",
+      "MSFT",
+      "GOOG",
+      "LRCX",
+      "PYPL",
+      "AAPL",
+      "ANET",
+      "LLY"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "GF Score Max",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 40
+    },
+    "returns": {
+      "oneYear": 27.603390222991063,
+      "threeYear": 50.97188163879843,
+      "fiveYear": 27.199931553261933,
+      "average": 35.25840113835047
+    },
+    "topStocks": [
+      "META",
+      "NVDA",
+      "AMZN",
+      "MSFT",
+      "GOOG",
+      "PYPL",
+      "LRCX",
+      "ANET",
+      "LLY",
+      "AAPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "GF Heavy 40%",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 40
+    },
+    "returns": {
+      "oneYear": 27.603390222991063,
+      "threeYear": 50.97188163879843,
+      "fiveYear": 27.199931553261933,
+      "average": 35.25840113835047
+    },
+    "topStocks": [
+      "META",
+      "NVDA",
+      "AMZN",
+      "MSFT",
+      "GOOG",
+      "PYPL",
+      "LRCX",
+      "ANET",
+      "LLY",
+      "AAPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "GF+Size Focus",
+    "weights": {
+      "marketCap": 25,
+      "adtv": 25,
+      "priceToSales": 10,
+      "salesGrowth": 10,
+      "gfScore": 30
+    },
+    "returns": {
+      "oneYear": 27.603390222991063,
+      "threeYear": 50.97188163879843,
+      "fiveYear": 27.19993155326193,
+      "average": 35.25840113835047
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MSFT",
+      "GOOG",
+      "AAPL",
+      "LRCX",
+      "ANET",
+      "PYPL",
+      "LLY"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "MC+GF Heavy",
+    "weights": {
+      "marketCap": 40,
+      "adtv": 10,
+      "priceToSales": 10,
+      "salesGrowth": 10,
+      "gfScore": 40
+    },
+    "returns": {
+      "oneYear": 26.994715312384773,
+      "threeYear": 49.96666274341209,
+      "fiveYear": 27.180031917635592,
+      "average": 34.71380332447748
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MSFT",
+      "GOOG",
+      "LLY",
+      "AAPL",
+      "V",
+      "COST",
+      "LRCX"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "ADTV Heavy 35%",
+    "weights": {
+      "marketCap": 17,
+      "adtv": 35,
+      "priceToSales": 16,
+      "salesGrowth": 17,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 33.21565525310834,
+      "threeYear": 46.91132130268022,
+      "fiveYear": 22.24175846441787,
+      "average": 34.12291167340214
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "BAC",
+      "MU",
+      "PYPL",
+      "FCX",
+      "LRCX"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "ADTV+GF Heavy",
+    "weights": {
+      "marketCap": 10,
+      "adtv": 40,
+      "priceToSales": 10,
+      "salesGrowth": 10,
+      "gfScore": 40
+    },
+    "returns": {
+      "oneYear": 29.28159965981481,
+      "threeYear": 48.49883541302593,
+      "fiveYear": 23.564979660485275,
+      "average": 33.78180491110867
+    },
+    "topStocks": [
+      "NVDA",
+      "META",
+      "AMZN",
+      "MSFT",
+      "GOOG",
+      "AAPL",
+      "PYPL",
+      "LRCX",
+      "ANET",
+      "MNST"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "GF Heavy 35%",
+    "weights": {
+      "marketCap": 17,
+      "adtv": 17,
+      "priceToSales": 16,
+      "salesGrowth": 15,
+      "gfScore": 35
+    },
+    "returns": {
+      "oneYear": 26.229807198823533,
+      "threeYear": 49.74202171540966,
+      "fiveYear": 24.64698624771209,
+      "average": 33.53960505398177
+    },
+    "topStocks": [
+      "AMZN",
+      "META",
+      "NVDA",
+      "MSFT",
+      "GOOG",
+      "PYPL",
+      "LRCX",
+      "ANET",
+      "AAPL",
+      "COST"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Size Balanced 30-30",
+    "weights": {
+      "marketCap": 30,
+      "adtv": 30,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 28.611664446997388,
+      "threeYear": 46.60543958215569,
+      "fiveYear": 23.014820152243704,
+      "average": 32.74397472713226
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "BAC",
+      "GOOG",
+      "MSFT",
+      "MU",
+      "WMT",
+      "UNH",
+      "C"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "ADTV Max",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 40,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 24.493278155733876,
+      "threeYear": 43.93296920609514,
+      "fiveYear": 20.896514205250412,
+      "average": 29.774253855693143
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "BAC",
+      "MU",
+      "PYPL",
+      "FCX",
+      "AAPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "ADTV Heavy 40%",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 40,
+      "priceToSales": 15,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 24.493278155733876,
+      "threeYear": 43.93296920609514,
+      "fiveYear": 20.896514205250412,
+      "average": 29.774253855693143
+    },
+    "topStocks": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "GOOG",
+      "MSFT",
+      "BAC",
+      "MU",
+      "PYPL",
+      "FCX",
+      "AAPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Equal",
+    "weights": {
+      "marketCap": 20,
+      "adtv": 20,
+      "priceToSales": 20,
+      "salesGrowth": 20,
+      "gfScore": 20
+    },
+    "returns": {
+      "oneYear": 21.691913139117297,
+      "threeYear": 43.26180191456481,
+      "fiveYear": 21.051972025525107,
+      "average": 28.66856235973574
+    },
+    "topStocks": [
+      "AMZN",
+      "META",
+      "NVDA",
+      "GOOG",
+      "MSFT",
+      "PYPL",
+      "LRCX",
+      "FCX",
+      "BAC",
+      "COST"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Balanced High GF",
+    "weights": {
+      "marketCap": 20,
+      "adtv": 20,
+      "priceToSales": 20,
+      "salesGrowth": 20,
+      "gfScore": 20
+    },
+    "returns": {
+      "oneYear": 21.691913139117297,
+      "threeYear": 43.26180191456481,
+      "fiveYear": 21.051972025525107,
+      "average": 28.66856235973574
+    },
+    "topStocks": [
+      "AMZN",
+      "META",
+      "NVDA",
+      "GOOG",
+      "MSFT",
+      "PYPL",
+      "LRCX",
+      "FCX",
+      "BAC",
+      "COST"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Balanced Low GF",
+    "weights": {
+      "marketCap": 25,
+      "adtv": 25,
+      "priceToSales": 25,
+      "salesGrowth": 15,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 14.331096673507213,
+      "threeYear": 40.96470076167829,
+      "fiveYear": 22.964094346250796,
+      "average": 26.0866305938121
+    },
+    "topStocks": [
+      "UNH",
+      "AMZN",
+      "BAC",
+      "C",
+      "WMT",
+      "META",
+      "JPM",
+      "NVDA",
+      "WFC",
+      "PGR"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Fundamentals 25-25",
+    "weights": {
+      "marketCap": 20,
+      "adtv": 15,
+      "priceToSales": 25,
+      "salesGrowth": 25,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 12.347097398177802,
+      "threeYear": 40.676853065104275,
+      "fiveYear": 22.965832688084156,
+      "average": 25.329927717122075
+    },
+    "topStocks": [
+      "AMZN",
+      "META",
+      "UNH",
+      "NVDA",
+      "COST",
+      "BAC",
+      "C",
+      "PGR",
+      "JPM",
+      "MS"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Size Balanced 25-25",
+    "weights": {
+      "marketCap": 25,
+      "adtv": 25,
+      "priceToSales": 20,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 15.237495438902805,
+      "threeYear": 39.80354999404098,
+      "fiveYear": 17.7778766144416,
+      "average": 24.27297401579513
+    },
+    "topStocks": [
+      "AMZN",
+      "META",
+      "NVDA",
+      "BAC",
+      "GOOG",
+      "UNH",
+      "MSFT",
+      "WMT",
+      "C",
+      "PYPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Balanced Mid GF",
+    "weights": {
+      "marketCap": 23,
+      "adtv": 23,
+      "priceToSales": 22,
+      "salesGrowth": 17,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 15.237495438902805,
+      "threeYear": 39.80354999404097,
+      "fiveYear": 17.777876614441595,
+      "average": 24.272974015795125
+    },
+    "topStocks": [
+      "AMZN",
+      "META",
+      "NVDA",
+      "BAC",
+      "UNH",
+      "C",
+      "GOOG",
+      "WMT",
+      "MSFT",
+      "PYPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "MC+Value Heavy",
+    "weights": {
+      "marketCap": 40,
+      "adtv": 10,
+      "priceToSales": 40,
+      "salesGrowth": 10,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 14.736406833897547,
+      "threeYear": 16.50060066411481,
+      "fiveYear": 18.23891058165404,
+      "average": 16.491972693222134
+    },
+    "topStocks": [
+      "UNH",
+      "WMT",
+      "COST",
+      "C",
+      "CVS",
+      "BAC",
+      "MCK",
+      "XOM",
+      "GM",
+      "PGR"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Growth+Value Focus",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 30,
+      "salesGrowth": 30,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 7.545136918846245,
+      "threeYear": 18.289777767712877,
+      "fiveYear": 13.909436294680418,
+      "average": 13.248116993746514
+    },
+    "topStocks": [
+      "CI",
+      "PGR",
+      "UNH",
+      "C",
+      "GM",
+      "BAC",
+      "SW",
+      "AMZN",
+      "MS",
+      "JPM"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Fundamentals 30-30",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 30,
+      "salesGrowth": 30,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 7.545136918846245,
+      "threeYear": 18.289777767712877,
+      "fiveYear": 13.909436294680418,
+      "average": 13.248116993746514
+    },
+    "topStocks": [
+      "CI",
+      "PGR",
+      "UNH",
+      "C",
+      "GM",
+      "BAC",
+      "SW",
+      "AMZN",
+      "MS",
+      "JPM"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "GF+Value Focus",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 30,
+      "salesGrowth": 10,
+      "gfScore": 30
+    },
+    "returns": {
+      "oneYear": 8.861971464060444,
+      "threeYear": 20.168706163240028,
+      "fiveYear": 7.6420385473713734,
+      "average": 12.224238724890613
+    },
+    "topStocks": [
+      "PYPL",
+      "AMZN",
+      "COST",
+      "XYZ",
+      "FCX",
+      "HCA",
+      "META",
+      "SYY",
+      "CVS",
+      "GM"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Size+Value Focus",
+    "weights": {
+      "marketCap": 30,
+      "adtv": 30,
+      "priceToSales": 30,
+      "salesGrowth": 10,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 5.67122814143945,
+      "threeYear": 12.710179948732726,
+      "fiveYear": 11.275267296305916,
+      "average": 9.885558462159365
+    },
+    "topStocks": [
+      "UNH",
+      "WMT",
+      "C",
+      "BAC",
+      "AMZN",
+      "XOM",
+      "VZ",
+      "CMCSA",
+      "PFE",
+      "WFC"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Value Heavy 35%",
+    "weights": {
+      "marketCap": 17,
+      "adtv": 17,
+      "priceToSales": 35,
+      "salesGrowth": 16,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 4.414738364133333,
+      "threeYear": 16.925448890623173,
+      "fiveYear": 8.046053514880851,
+      "average": 9.79541358987912
+    },
+    "topStocks": [
+      "UNH",
+      "GM",
+      "C",
+      "COST",
+      "WMT",
+      "AMZN",
+      "PYPL",
+      "XYZ",
+      "BAC",
+      "PGR"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "P/S Ratio Max",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 40,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 9.351060789558616,
+      "threeYear": 11.438867928333426,
+      "fiveYear": 8.153053096764424,
+      "average": 9.64766060488549
+    },
+    "topStocks": [
+      "UNH",
+      "GM",
+      "C",
+      "COST",
+      "WMT",
+      "CVS",
+      "PYPL",
+      "CI",
+      "XYZ",
+      "MCK"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Value Heavy 40%",
+    "weights": {
+      "marketCap": 15,
+      "adtv": 15,
+      "priceToSales": 40,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 9.351060789558616,
+      "threeYear": 11.438867928333426,
+      "fiveYear": 8.153053096764424,
+      "average": 9.64766060488549
+    },
+    "topStocks": [
+      "UNH",
+      "GM",
+      "C",
+      "COST",
+      "WMT",
+      "CVS",
+      "PYPL",
+      "CI",
+      "XYZ",
+      "MCK"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Fundamentals 35-35",
+    "weights": {
+      "marketCap": 10,
+      "adtv": 10,
+      "priceToSales": 35,
+      "salesGrowth": 35,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 1.1645581478651457,
+      "threeYear": 11.208376203997062,
+      "fiveYear": 16.345466345658952,
+      "average": 9.572800232507054
+    },
+    "topStocks": [
+      "CI",
+      "SW",
+      "MCK",
+      "PGR",
+      "SYF",
+      "GM",
+      "UNH",
+      "OKE",
+      "C",
+      "APA"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Value+Growth Heavy",
+    "weights": {
+      "marketCap": 10,
+      "adtv": 10,
+      "priceToSales": 40,
+      "salesGrowth": 40,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": -1.2122797383266786,
+      "threeYear": 13.658283779802979,
+      "fiveYear": 15.515916966854544,
+      "average": 9.320640336110282
+    },
+    "topStocks": [
+      "CI",
+      "SW",
+      "MCK",
+      "PGR",
+      "SYF",
+      "GM",
+      "OKE",
+      "UNH",
+      "PRU",
+      "C"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Value Heavy 30%",
+    "weights": {
+      "marketCap": 20,
+      "adtv": 20,
+      "priceToSales": 30,
+      "salesGrowth": 15,
+      "gfScore": 15
+    },
+    "returns": {
+      "oneYear": 4.653783602486433,
+      "threeYear": 15.454047991136855,
+      "fiveYear": 7.64089081698439,
+      "average": 9.249574136869226
+    },
+    "topStocks": [
+      "UNH",
+      "AMZN",
+      "C",
+      "WMT",
+      "BAC",
+      "PYPL",
+      "GM",
+      "COST",
+      "XYZ",
+      "FCX"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Value+GF Heavy",
+    "weights": {
+      "marketCap": 10,
+      "adtv": 10,
+      "priceToSales": 40,
+      "salesGrowth": 10,
+      "gfScore": 40
+    },
+    "returns": {
+      "oneYear": 0.019303061921417397,
+      "threeYear": 19.145085348234527,
+      "fiveYear": 8.562846271772335,
+      "average": 9.24241156064276
+    },
+    "topStocks": [
+      "COST",
+      "PYPL",
+      "HCA",
+      "SYY",
+      "UHS",
+      "CBRE",
+      "DHI",
+      "AMZN",
+      "LEN",
+      "XYZ"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "Value+Size Focus",
+    "weights": {
+      "marketCap": 25,
+      "adtv": 25,
+      "priceToSales": 30,
+      "salesGrowth": 10,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 4.393084764084202,
+      "threeYear": 13.407663623773841,
+      "fiveYear": 7.7526750130140325,
+      "average": 8.517807800290692
+    },
+    "topStocks": [
+      "UNH",
+      "WMT",
+      "C",
+      "BAC",
+      "AMZN",
+      "GM",
+      "XOM",
+      "CMCSA",
+      "VZ",
+      "PYPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  },
+  {
+    "name": "ADTV+Value Heavy",
+    "weights": {
+      "marketCap": 10,
+      "adtv": 40,
+      "priceToSales": 40,
+      "salesGrowth": 10,
+      "gfScore": 10
+    },
+    "returns": {
+      "oneYear": 0.5996975213759375,
+      "threeYear": 9.286356733935872,
+      "fiveYear": 3.4893709170072054,
+      "average": 4.458475057439672
+    },
+    "topStocks": [
+      "UNH",
+      "F",
+      "WMT",
+      "C",
+      "CMCSA",
+      "XYZ",
+      "GM",
+      "NCLH",
+      "BAC",
+      "PYPL"
+    ],
+    "validStocks": {
+      "oneYear": 10,
+      "threeYear": 10,
+      "fiveYear": 10
+    }
+  }
+]

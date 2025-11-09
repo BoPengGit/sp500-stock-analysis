@@ -1,0 +1,737 @@
+.portfolio-returns {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.returns-header {
+  margin-bottom: 2rem;
+}
+
+.returns-header h2 {
+  color: #667eea;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.returns-subtitle {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Weight selector */
+.weight-selector {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f7fafc;
+  border-radius: 8px;
+}
+
+.weight-selector label {
+  display: block;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.weight-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.weight-btn {
+  padding: 0.6rem 1.25rem;
+  border: 2px solid #cbd5e0;
+  background: white;
+  color: #4a5568;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.weight-btn:hover {
+  border-color: #667eea;
+  color: #667eea;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weight-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.loading-message,
+.error-message {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.error-message {
+  color: #e53e3e;
+  background: #fff5f5;
+  border: 1px solid #feb2b2;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.returns-summary {
+  margin-bottom: 2rem;
+}
+
+.summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f7fafc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.summary-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.summary-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.summary-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.summary-table tbody tr:hover {
+  background: #edf2f7;
+}
+
+.period-label {
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 1rem;
+}
+
+.return-value {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.return-value.positive {
+  color: #22c55e;
+}
+
+.return-value.negative {
+  color: #ef4444;
+}
+
+.date-value {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.valid-stocks {
+  color: #4a5568;
+  font-weight: 500;
+}
+
+/* Individual stock returns */
+.individual-returns {
+  margin-top: 2rem;
+}
+
+.individual-returns h3 {
+  color: #2d3748;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.stock-returns-table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.stock-returns-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.stock-returns-table th {
+  background: #f7fafc;
+  color: #4a5568;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.stock-returns-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+}
+
+.stock-returns-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.stock-returns-table tbody tr:hover {
+  background: #f7fafc;
+}
+
+.symbol-cell {
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.weight-cell {
+  color: #718096;
+}
+
+.return-cell {
+  font-weight: 600;
+}
+
+.return-cell.positive {
+  color: #22c55e;
+}
+
+.return-cell.negative {
+  color: #ef4444;
+}
+
+.refresh-btn {
+  margin-top: 1.5rem;
+}
+
+/* Annual Rebalance Specific Styles */
+.annual-rebalance .period-row {
+  transition: background 0.2s ease;
+}
+
+.annual-rebalance .period-row:hover {
+  background: #f7fafc;
+}
+
+.details-cell {
+  text-align: center;
+}
+
+.expand-btn {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.expand-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.expanded-row {
+  background: #f8fafc;
+}
+
+.expanded-row td {
+  padding: 0 !important;
+}
+
+.transaction-details {
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border-top: 2px solid #e2e8f0;
+}
+
+.transaction-details h4 {
+  color: #2d3748;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.year-block {
+  background: white;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #667eea;
+  transition: all 0.2s ease;
+}
+
+.year-block:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  transform: translateX(2px);
+}
+
+.year-block:last-child {
+  margin-bottom: 0;
+}
+
+.year-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.year-label {
+  font-weight: 700;
+  color: #2d3748;
+  font-size: 1rem;
+}
+
+.year-date {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.year-return {
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+}
+
+.year-return.positive {
+  color: #22c55e;
+  background: #f0fdf4;
+}
+
+.year-return.negative {
+  color: #ef4444;
+  background: #fef2f2;
+}
+
+.year-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.portfolio-values {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.portfolio-values .arrow {
+  color: #cbd5e0;
+  font-weight: bold;
+}
+
+.portfolio-values .change {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.portfolio-values .change.positive {
+  color: #22c55e;
+  background: #f0fdf4;
+}
+
+.portfolio-values .change.negative {
+  color: #ef4444;
+  background: #fef2f2;
+}
+
+.stocks-bought {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stocks-bought strong {
+  color: #2d3748;
+  font-size: 0.9rem;
+}
+
+.stock-symbols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.stock-symbol {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.2);
+  transition: all 0.2s ease;
+}
+
+.stock-symbol:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.final-value {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.strategy-description {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0.5rem 0 0 0;
+}
+
+/* Hold Winners Specific Styles */
+.stock-symbol.keep {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+}
+
+.stock-symbol.sell {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+.stock-symbol.buy {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+.rebalance-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.stocks-kept, .stocks-sold, .stocks-bought, .stocks-held {
+  margin-bottom: 0.5rem;
+}
+
+/* Historical Top Stocks Specific Styles */
+.historical-stocks {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.historical-stocks .weight-selector select {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.75rem 1rem;
+  border: 2px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.historical-stocks .weight-selector select:hover {
+  border-color: #667eea;
+}
+
+.historical-stocks .weight-selector select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.historical-stocks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+
+.historical-stocks-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.historical-stocks-table th {
+  color: white;
+  padding: 0.875rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.historical-stocks-table th:last-child {
+  border-right: none;
+}
+
+.historical-stocks-table tbody tr {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.historical-stocks-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.historical-stocks-table tbody tr:hover {
+  background: linear-gradient(90deg, #f8fafc 0%, #edf2f7 100%);
+  transform: scale(1.005);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.historical-stocks-table td {
+  padding: 0.875rem 0.75rem;
+  color: #4a5568;
+  border-right: 1px solid #f1f5f9;
+}
+
+.historical-stocks-table td:last-child {
+  border-right: none;
+}
+
+/* Cell-specific styles */
+.historical-stocks-table .year-cell {
+  text-align: center;
+  font-weight: 700;
+  color: #667eea;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e6ebff 100%);
+  font-size: 0.95rem;
+  min-width: 80px;
+  border-right: 2px solid #cbd5e0;
+}
+
+.historical-stocks-table .rank-cell {
+  text-align: center;
+  font-weight: 600;
+  color: #718096;
+  background: #f7fafc;
+  font-size: 0.85rem;
+  min-width: 50px;
+}
+
+.historical-stocks-table .symbol-cell {
+  font-weight: 700;
+  color: #667eea;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  min-width: 80px;
+}
+
+.historical-stocks-table .name-cell {
+  color: #2d3748;
+  font-weight: 500;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.historical-stocks-table .name-cell .sector-tag {
+  display: block;
+  color: #718096;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  font-weight: 400;
+}
+
+.historical-stocks-table .sector-cell {
+  color: #4a5568;
+  min-width: 120px;
+  font-size: 0.85rem;
+}
+
+.historical-stocks-table .value-cell {
+  text-align: right;
+  font-weight: 500;
+  color: #2d3748;
+  font-family: 'Monaco', 'Courier New', monospace;
+  min-width: 90px;
+}
+
+.historical-stocks-table .value-cell.positive {
+  color: #22c55e;
+}
+
+.historical-stocks-table .value-cell.negative {
+  color: #ef4444;
+}
+
+.historical-stocks-table .score-cell {
+  text-align: center;
+  font-weight: 700;
+  color: #667eea;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e6ebff 100%);
+  min-width: 100px;
+}
+
+/* Alternating rank columns for better readability */
+.historical-stocks-table tbody tr td.rank-cell:nth-child(6),
+.historical-stocks-table tbody tr td.rank-cell:nth-child(10),
+.historical-stocks-table tbody tr td.rank-cell:nth-child(14) {
+  background: #edf2f7;
+}
+
+/* Highlight the top 3 ranks */
+.historical-stocks-table tbody tr:nth-child(1) .rank-cell:first-child {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #8b6914;
+  font-weight: 700;
+}
+
+.historical-stocks-table tbody tr:nth-child(2) .rank-cell:first-child {
+  background: linear-gradient(135deg, #c0c0c0 0%, #d9d9d9 100%);
+  color: #4a5568;
+  font-weight: 700;
+}
+
+.historical-stocks-table tbody tr:nth-child(3) .rank-cell:first-child {
+  background: linear-gradient(135deg, #cd7f32 0%, #e6a857 100%);
+  color: #744210;
+  font-weight: 700;
+}
+
+/* Responsive table wrapper */
+.returns-table-wrapper {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.returns-note {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border-left: 4px solid #667eea;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.returns-note p {
+  margin: 0;
+  color: #4a5568;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.returns-note strong {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.loading-text {
+  text-align: center;
+  color: #667eea;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 2rem;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 1024px) {
+  .historical-stocks-table {
+    font-size: 0.8rem;
+  }
+
+  .historical-stocks-table th,
+  .historical-stocks-table td {
+    padding: 0.625rem 0.5rem;
+  }
+
+  .historical-stocks-table .name-cell {
+    max-width: 150px;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio-returns {
+    padding: 1rem;
+  }
+
+  .returns-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .returns-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .summary-table th,
+  .summary-table td {
+    padding: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .return-value {
+    font-size: 1.1rem;
+  }
+
+  .stock-returns-table th,
+  .stock-returns-table td {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .transaction-details {
+    padding: 1rem;
+  }
+
+  .year-block {
+    padding: 1rem;
+  }
+
+  .year-header {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-values {
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+  }
+
+  .stock-symbols {
+    gap: 0.4rem;
+  }
+
+  .stock-symbol {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+  }
+}

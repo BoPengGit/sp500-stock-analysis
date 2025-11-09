@@ -1,0 +1,162 @@
+.table-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.stock-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.stock-table th {
+  padding: 1rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.stock-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.stock-table th.sortable:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.weight {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.stock-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s;
+}
+
+.stock-table tbody tr:hover {
+  background: #f8f9ff;
+}
+
+.stock-table tbody tr.even {
+  background: #fafafa;
+}
+
+.stock-table tbody tr.even:hover {
+  background: #f0f2ff;
+}
+
+.stock-table td {
+  padding: 1rem 0.75rem;
+}
+
+.rank-cell {
+  text-align: center;
+}
+
+.rank-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #e2e8f0;
+  color: #334155;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.rank-badge.top-10 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.symbol-cell {
+  font-weight: 700;
+  color: #667eea;
+  font-size: 1rem;
+}
+
+.name-cell {
+  max-width: 250px;
+}
+
+.sector-tag {
+  display: block;
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+.number-cell {
+  text-align: right;
+  font-family: 'Courier New', monospace;
+}
+
+.number-cell.positive {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.number-cell.negative {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.rank-number {
+  text-align: center;
+  color: #666;
+  font-weight: 500;
+}
+
+.score-cell {
+  text-align: center;
+  font-weight: 700;
+  color: #667eea;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .table-container {
+    overflow-x: auto;
+  }
+
+  .stock-table {
+    font-size: 0.75rem;
+  }
+
+  .stock-table th,
+  .stock-table td {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .stock-table {
+    font-size: 0.7rem;
+  }
+
+  .stock-table th,
+  .stock-table td {
+    padding: 0.5rem 0.25rem;
+  }
+
+  .name-cell {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .sector-tag {
+    display: none;
+  }
+}

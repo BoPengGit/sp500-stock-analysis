@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Database files
+*.db
+*.db-journal
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/client/build
+/build
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/temp
+*.tmp
+
+# Optimization result files
+*-results.txt
+*-optimization-*.txt
+garp-*.txt
+local-search-*.txt
+multi-portfolio-*.txt
+comprehensive-*.txt
+peg-*.log
+year*.log
