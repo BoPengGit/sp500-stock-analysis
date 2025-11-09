@@ -263,9 +263,9 @@ function PortfolioReturns({ selectedWeights, onWeightChange, weightConfigs }) {
           </div>
         </div>
 
-            <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
-              Recalculate Returns
-            </button>
+        <button onClick={fetchPortfolioReturns} className="btn btn-secondary refresh-btn">
+          Recalculate Returns
+        </button>
           </>
         )}
       </div>
