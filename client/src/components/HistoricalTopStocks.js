@@ -34,6 +34,11 @@ function HistoricalTopStocks({ selectedWeights, onWeightChange, weightConfigs })
             priceToSales: weights.priceToSales,
             salesGrowth: weights.salesGrowth,
             gfScore: weights.gfScore,
+            peRatio: weights.peRatio || 0,
+            debtToEquity: weights.debtToEquity || 0,
+            operatingMargin: weights.operatingMargin || 0,
+            roic: weights.roic || 0,
+            fcfYield: weights.fcfYield || 0,
             limit: 10
           };
 
@@ -59,6 +64,11 @@ function HistoricalTopStocks({ selectedWeights, onWeightChange, weightConfigs })
           priceToSales: weights.priceToSales,
           salesGrowth: weights.salesGrowth,
           gfScore: weights.gfScore,
+          peRatio: weights.peRatio || 0,
+          debtToEquity: weights.debtToEquity || 0,
+          operatingMargin: weights.operatingMargin || 0,
+          roic: weights.roic || 0,
+          fcfYield: weights.fcfYield || 0,
           limit: 10
         };
 

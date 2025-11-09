@@ -594,7 +594,8 @@ router.get('/rolling-backtest', async (req, res) => {
  */
 router.get('/historical-top-stocks', async (req, res) => {
   try {
-    const { yearsAgo, marketCap, adtv, priceToSales, salesGrowth, gfScore, limit } = req.query;
+    const { yearsAgo, marketCap, adtv, priceToSales, salesGrowth, gfScore,
+            peRatio, debtToEquity, operatingMargin, roic, fcfYield, limit } = req.query;
 
     // Use same default weights as frontend default (30/15/15/20/20)
     const weights = {
@@ -602,7 +603,12 @@ router.get('/historical-top-stocks', async (req, res) => {
       adtv: parseFloat(adtv) || 15,
       priceToSales: parseFloat(priceToSales) || 15,
       salesGrowth: parseFloat(salesGrowth) || 20,
-      gfScore: parseFloat(gfScore) || 20
+      gfScore: parseFloat(gfScore) || 20,
+      peRatio: parseFloat(peRatio) || 0,
+      debtToEquity: parseFloat(debtToEquity) || 0,
+      operatingMargin: parseFloat(operatingMargin) || 0,
+      roic: parseFloat(roic) || 0,
+      fcfYield: parseFloat(fcfYield) || 0
     };
 
     const years = yearsAgo !== undefined ? parseInt(yearsAgo) : 1;
@@ -637,13 +643,18 @@ router.get('/historical-top-stocks', async (req, res) => {
       }
     }
 
-    // Set weights for evaluation
+    // Set weights for evaluation (with GARP metrics)
     evaluationService.setWeights(
       weights.marketCap,
       weights.adtv,
       weights.priceToSales,
       weights.salesGrowth,
-      weights.gfScore
+      weights.gfScore,
+      weights.peRatio,
+      weights.debtToEquity,
+      weights.operatingMargin,
+      weights.roic,
+      weights.fcfYield
     );
 
     // Evaluate and rank stocks using the same scoring system
